@@ -73,7 +73,7 @@ pip install linear-equations
 Import this file in your project, wherever needed, using:
 
 ```python
-import lienar_equations as le
+import linear_equations as le
 ```
 
 To use the graphical-user interface, clone the repository on your device, navigate to the folder, and execute:
