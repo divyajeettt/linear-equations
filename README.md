@@ -56,5 +56,5 @@ import lienar_equations as le
 To use the graphical-user interface, clone the repository on your device, navigate to the folder, and execute:
 
 ```
-python3 gui.py
+python3 gui_linear_equations.py
 ```
