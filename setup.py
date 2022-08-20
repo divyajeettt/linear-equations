@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="linear_equations",
-    version="0.0.6",
+    version="0.0.7",
     author="Divyajeet Singh",
     author_email="knightt1821@gmail.com",
     description="provides Linear Equations in 2 variables as Python Objects",
