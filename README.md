@@ -62,6 +62,28 @@ logging.basicConfig(
  - `logging.ERROR`
  - `logging.CRITICAL`
 
+## Update History
+
+### Update (0.0.5)
+
+Added graphing and visualization of 2-dimensional equations. \
+Added function `graph(eqn1, eqn2)` which graphs the given `LinearEquation2D` objects on a 2D mathematical plot along with their solution (if any)
+
+### Update (0.0.6)
+
+Minor bug fixes:
+- Fixed issues with plotting linear equations
+- Improved legend on graphs
+
+Added function `graph_many(eqn1, eqn2, ..., eqn, show_legend=True)` which graphs more than two `LinearEquation2D` objects on the same plot along with each of their solutions (if any)
+
+### Updates (0.0.7)
+Minor bug fixes
+
+## Footnotes
+
+'gui_linear_equations.py' makes use of global variables.
+
 ## Run
 
 To use, execute:
