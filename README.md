@@ -14,12 +14,10 @@ Along with the classes describing algebra of linear equations, a class `Symbol` 
 A small graphical-user interface based program is also available as a sub-part of this project. The GUI version of linear-equations has a dependency on this module, `linear_equations`. \
 *Date of creation:* `April 20, 2021`
 
-## Edit the logging settings
-
 ## Some features and functionalities
 
 - class `Symbol`
-    > symbols to use in Linear Equations, forexample: Symbol("x") -> x
+    > symbols to use in Linear Equations, for example: Symbol("x") -> x
 - class `LinearEquation1D`
     > objects of type `ax + b = 0`
 - class `LinearEquation2D`
@@ -38,6 +36,31 @@ All classes, methods and functions are enriched with help-text that can be accce
 ```python
 help(linear_equations.thing)
 ```
+
+## Edit the logging settings
+
+To modify the level of the `logger`, modify:
+
+```python
+logging.basicConfig(
+    filename="linear-equations.log", level=logging.INFO, format=LOG_FORMAT
+)
+```
+
+ on [Line 102](https://github.com/divyajeettt/linear-equations/blob/15c664e4bbe0d2c0eeba964eeaed4b1ac658c3b2/gui_linear_equations.py#L102) of `gui_linear_equations.py` to:
+ 
+ ```python
+logging.basicConfig(
+    filename="linear-equations.log", level=LEVEL, format=LOG_FORMAT
+)
+ ```
+ 
+ where `LEVEL` can be one of:
+ - `logging.INFO`
+ - `logging.DEBUG`
+ - `logging.WARNING`
+ - `logging.ERROR`
+ - `logging.CRITICAL`
 
 ## Run
 
