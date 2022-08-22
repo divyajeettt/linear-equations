@@ -5,7 +5,7 @@
 linear-equations is a mathematical Python module providing Linear Equations in one variable, and Linear Equations in two variables as Python objects through two classes called `LinearEquation1D` and `LinearEquation2D`. 
 
 *Date of creation:* `April 04, 2021` \
-*Date of first release on [PyPI](https://pypi.org/):* `April 29, 2021`
+*Date of first release on [PyPI](https://pypi.org/project/linear-equations/):* `April 29, 2021`
 
 Along with the classes describing algebra of linear equations, a class `Symbol` has also been provided to allocate the symbols used in these equations.
 
