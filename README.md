@@ -89,7 +89,7 @@ Minor bug fixes
 To use, execute:
 
 ```
-pip install linear-equations
+pip3 install linear-equations
 ```
 
 Import this file in your project, wherever needed, using:
