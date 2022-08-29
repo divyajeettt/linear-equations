@@ -14,7 +14,7 @@ Along with the classes describing algebra of linear equations, a class `Symbol` 
 A small graphical-user interface based program is also available as a sub-part of this project. The GUI version of linear-equations has a dependency on this module, `linear_equations`. \
 *Date of creation:* `April 20, 2021`
 
-## Some features and functionalities
+## Features
 
 - class `Symbol`
     > symbols to use in Linear Equations, for example: Symbol("x") -> x
